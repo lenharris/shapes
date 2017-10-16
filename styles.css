@@ -1,0 +1,44 @@
+div#button {
+  display: inline-block;
+  width: 315px;
+  height: 315px;
+  margin-left: 3px;
+  margin-top: 3px;
+  position: absolute; }
+
+.square {
+  border: 1px solid teal;
+  border-radius: 3px; }
+
+div#screen {
+  width: 600px;
+  height: 600px;
+  float: right;
+  background-color: black;
+  margin-right: 50px; }
+
+#square-shape {
+  width: 100px;
+  height: 100px;
+  background: red; }
+
+#rectangle-shape {
+  width: 200px;
+  height: 100px;
+  background: red; }
+
+#circle-shape {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+#triangle-shape {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent; }
+
+/*# sourceMappingURL=styles.css.map */
